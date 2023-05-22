@@ -1,0 +1,18 @@
+
+.header-wrapper {
+    align-items: center;
+}
+.main-header {
+    color:red;
+    text-align: center;
+    font-size: 5em;
+    margin: 1em auto;
+    text-transform: uppercase;
+}
+
+
+@media (max-width:600px) {
+    .main-header {
+        font-size: 3em;
+    }
+}
