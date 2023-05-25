@@ -1,13 +1,13 @@
 
 import './App.scss';
-import MainCharactersTab from './components/moviesMainTab/moviesMainTab';
+import CharsMainTab from './components/charsMainTab/charsMainTab';
 import Header from './components/header/header';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <MainCharactersTab/>
+      <CharsMainTab/>
     </div>
   );
 }

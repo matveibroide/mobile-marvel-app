@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import getCharacters from '../../services/services';
-import './moviesMainTab.scss'
+import './charsMainTab.scss'
 import { getCharacter } from '../../services/services';
 import { apiKey } from '../../services/services';
 
@@ -8,7 +8,7 @@ import { apiKey } from '../../services/services';
 
 function MainCharactersTab() {
 const [characters, setCharacters] = useState([]);
-const [charId,setRecordedId] = useState("1017100");
+const [charId,setRecordedId] = useState(null);
 const [charInfo, setCharInfo] = useState(null);
 const [visible,setVisible] = useState(true);
 const [offset,setOffset] = useState(6);
