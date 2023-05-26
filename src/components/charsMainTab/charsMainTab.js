@@ -3,7 +3,7 @@ import getCharacters from '../../services/services';
 import './charsMainTab.scss'
 import { getCharacter } from '../../services/services';
 import { apiKey } from '../../services/services';
-import spinnerPath from '../../assets/spinner.81b9fe9e6fee45b2212d.gif';
+import spinnerPath from '../../assets/spinner.gif';
 
 
 
@@ -16,8 +16,7 @@ const [offset,setOffset] = useState(6);
 const [loadingChars,setLoadingChars] = useState(true);
 const [loadingChar,setLoadingChar] = useState(true);
 
-// logic
-// render => creating state => post request => response => update state => rerender 
+
 
 
 useEffect(() => {
