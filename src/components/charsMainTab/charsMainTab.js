@@ -3,7 +3,7 @@ import getCharacters from '../../services/services';
 import './charsMainTab.scss'
 import { getCharacter } from '../../services/services';
 import { apiKey } from '../../services/services';
-import spinnerPath from '../../assets/spinner.gif';
+import spinnerPath from '../../assets/spinner.81b9fe9e6fee45b2212d.gif';
 
 
 
@@ -109,9 +109,7 @@ const changeVisibility = (e) => {
 
 
 const loadMoreChars = (e) => {
-    // state offset 5
-    //click => loadMoreChars(offset + 5)
-    //update state setChars(data)
+    
 
     const target = e.target
 
