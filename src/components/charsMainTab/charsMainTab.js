@@ -3,9 +3,9 @@ import getCharacters from '../../services/services';
 import './charsMainTab.scss'
 import { getCharacter } from '../../services/services';
 import { apiKey } from '../../services/services';
-import spinnerPath from '../../assets/spinner.gif';
 
 
+const spinnerPath = require('../../assets/spinner.gif')
 
 function MainCharactersTab() {
 const [characters, setCharacters] = useState([]);
