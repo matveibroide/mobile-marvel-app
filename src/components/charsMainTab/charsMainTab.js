@@ -5,7 +5,7 @@ import { getCharacter } from '../../services/services';
 import { apiKey } from '../../services/services';
 
 
-const spinnerPath = require('../../assets/spinner.gif')
+
 
 function MainCharactersTab() {
 const [characters, setCharacters] = useState([]);
@@ -135,7 +135,7 @@ const content = visible ? (
     
     (
 
-        <img className='spinner' key = {key} style={{height:'300px',width:'200px'}} src={spinnerPath} alt='spinner'></img>
+       <div style = {{width:'20em',height:'20em',textAlign:'center',fontSize:'24px',fontWeight:'900'}}>Loading...</div>
 
     )
         
@@ -169,7 +169,7 @@ const content = visible ? (
     {loadingChar ? 
     (
 
-    <img className='spinner' style={{height:'300px',width:'200px'}} src={spinnerPath} alt='spinner'></img>
+    <div style = {{width:'20em',height:'20em',textAlign:'center',fontSize:'24px',fontWeight:'900'}}>Loading...</div>
 
     ) : 
     
